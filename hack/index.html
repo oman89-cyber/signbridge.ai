@@ -3,9 +3,6 @@
   README: Mode Selector Page (SignBridge.ai)
   Purpose: Let users choose between Deaf and Hearing ("Normal") modes.
   Files: index.html (this), styles.css, app.js
-  TODO routes:
-    - Deaf mode → /deaf.html (mic access, avatar + text)
-    - Hearing mode → /hearing.html (camera access, ISL recognition)
 -->
 <html lang="en">
   <head>
@@ -37,23 +34,29 @@
         <div class="rainbow-divider" aria-hidden="true"></div>
 
         <div class="button-row" role="group" aria-label="Mode options">
+          
+          <!-- ✅ Deaf button link added -->
           <button
             id="btn-deaf"
             class="mode-btn"
             type="button"
             aria-label="Choose Deaf User mode"
+            onclick="window.location.href='/deaf-youtube.html'"
           >
             Deaf User
           </button>
 
+          <!-- ✅ Hearing button link added -->
           <button
             id="btn-hearing"
             class="mode-btn"
             type="button"
             aria-label="Choose Hearing User mode"
+            onclick="window.location.href='/hearing.html'"
           >
             Hearing User
           </button>
+
         </div>
 
         <p class="caption">You can change this later.</p>
@@ -65,7 +68,7 @@
 
     <script src="app.js" defer></script>
   </body>
-  
+
 </html>
 
 
