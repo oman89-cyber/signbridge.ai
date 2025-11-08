@@ -14,8 +14,3 @@
   status = 200
 
 
-# Root fallback for invalid paths
-[[redirects]]
-  from = "/*"
-  to   = "/index.html"
-  status = 200
