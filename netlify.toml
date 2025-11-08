@@ -2,7 +2,7 @@
   publish = "."
   command = ""
 
-# Optional: pretty URLs (so /hearing works)
+# pretty URLs chahiye to:
 [[redirects]]
   from = "/hearing"
   to   = "/hearing.html"
@@ -12,5 +12,3 @@
   from = "/deaf-youtube"
   to   = "/deaf-youtube.html"
   status = 200
-
-
