@@ -2,7 +2,7 @@
   publish = "."
   command = ""
 
-# Pretty URLs → actual files
+# Optional: pretty URLs (so /hearing works)
 [[redirects]]
   from = "/hearing"
   to   = "/hearing.html"
@@ -12,6 +12,7 @@
   from = "/deaf-youtube"
   to   = "/deaf-youtube.html"
   status = 200
+
 
 # Root fallback for invalid paths
 [[redirects]]
