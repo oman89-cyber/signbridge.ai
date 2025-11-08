@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+  command = ""
+
+# Redirect all routes to index.html (for multi-page or SPA navigation)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
